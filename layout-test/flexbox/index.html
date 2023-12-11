@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        banner {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 0 0 200px; /* flex-grow, flex-shrink, flex-basis */
+        }
+        .banner img{
+            width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Flexbox Layout</title>
+</head>
+<body>
+    <header>
+        <h1>My Flexbox Layout</h1>
+    </header>
+
+    <div class="banner">
+        <img src="../images/banner.png" alt="">
+    </div>
+
+    <main>
+        <section>
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat semper arcu, in placerat sem ultrices ac. Morbi tempus pretium nunc vel lacinia. Phasellus a iaculis sapien. Integer laoreet felis nisi, nec sagittis sem bibendum vitae. Nunc neque justo, blandit quis bibendum et, eleifend eget tellus. Aliquam tristique lectus eu mauris tristique ultricies. Curabitur et elit placerat, egestas nulla vitae, fringilla velit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+        </section>
+
+        <section>
+            <h2>Column 2</h2>
+            <p>Proin vehicula est eu rhoncus ultrices. Suspendisse potenti. Aenean pellentesque mi in ultricies hendrerit. Nulla quis metus urna. Praesent dapibus vel urna ac tristique. Nulla pharetra risus dui, quis vehicula justo interdum eget. Quisque porta et arcu sollicitudin vestibulum. Sed non lobortis sapien. Integer finibus, elit nec consequat tristique, tellus nunc maximus mauris, vitae posuere ipsum tortor eget ipsum. Nunc massa elit, tempus id nisl nec, accumsan fringilla tortor. Nunc fringilla nisl eu sem gravida malesuada.</p>
+        </section>
+
+        <section>
+            <h2>Column 3</h2>
+            <p>Curabitur mollis nulla nulla, a dictum ante fringilla vitae. Aenean mollis at nisi sit amet pretium. Nullam tempus arcu ut libero consequat interdum. Suspendisse auctor sed augue ut dapibus. Phasellus nulla dolor, imperdiet eget pellentesque venenatis, feugiat at sem. Phasellus dapibus rhoncus dignissim. Praesent justo turpis, feugiat et dui sit amet, laoreet efficitur velit. Sed id eros viverra nunc hendrerit tincidunt et quis ligula.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>My Flexbox Layout - Resmi Das Baniya </p>
+    </footer>
+</body>
+</html>
